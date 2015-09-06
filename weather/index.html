@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Weather Forecast</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css" media="screen">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <div id="wrapper">
+        <div id="content">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Weather</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+
+            <div class="location center">
+                <img src="marker.png" alt="location pointer"></img>
+                <h1 class="location"></h1>
+            </div>
+
+            <div id="weather_cont" class="center">
+                <ul id="scroller">
+                    <!-- The forecast items will go here -->
+                </ul>	
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>· Created by Maria Rosil ·</li>
+                <li>· Lviv 2015 ·</li>
+                <li><a href="https://www.facebook.com/MariaRosil">My Facebook</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+    <script src="js/weatherService.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
