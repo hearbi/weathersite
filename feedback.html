@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <title>Прогноз погоди</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="feedback.css" media="screen">
+</head>
+<body>
+<div class="content">
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Погода</a></li>
+            <li><a href="contact.html">Контакт</a></li>
+            <li><a href="feedback.html">Зворотній звязок</a></li>
+        </ul>
+    </div>
+    <form id="contact" method="post" action="">
+
+        <h1>Залиште свій відгук</h1>
+        <ul>
+            <li>
+                <label for="name">Ваше імя</label>
+                <input type="text" id="name" name="name" required />
+            </li>
+            <li>
+                <label for="email">Ваш емейл</label>
+                <input type="email" name="email" id="email" pattern="*@-.-. " required />
+            </li>
+            <li>
+                <label for="comment">Ваш коментар</label>
+                <textarea name="text" id="comment" required></textarea>
+            </li>
+            <li>
+                <button class="submit" type="submit">Submit</button>
+            </li>
+        </ul>
+    </form>
+</div>
+<div class="footer">
+    <ul>
+        <li>· Зроблено by hearbi ·</li>
+        <li>· SoftServ 2015 ·</li>
+        <li><a href="https://www.facebook.com/taras.tereh">My Facebook</a></li>
+    </ul>
+</div>
+</body>
+</html>

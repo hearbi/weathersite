@@ -1,2 +1,0 @@
-# weathersite
-gh-pages
